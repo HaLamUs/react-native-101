@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class='container-fluid')
+      div(class='row')
+        div(class='col-sm-2')
+          block sidebar
+            ul(class='sidebar-nav')
+              li 
+                a(href='/catalog') Home
+              li 
+                a(href='/books') All books
+              li 
+                a(href='/authors') All authors
+              li 
+                a(href='/genres') All genres
+              li 
+                a(href='/bookinstances') All book-instances
+              li 
+                hr
+              li 
+                a(href='/author/create') Create new author
+              li 
+                a(href='/genre/create') Create new genre
+              li 
+                a(href='/book/create') Create new book
+              li 
+                a(href='/bookinstance/create') Create new book instance (copy)
+                
+        div(class='col-sm-10')
+          block content

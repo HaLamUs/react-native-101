@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+server/node_modules
+
+/coverage
+
+/server/build
+
+.DS_Store
+.env.*
+
+npm-debug.log*
+
+server/enviroment/enviroment.js

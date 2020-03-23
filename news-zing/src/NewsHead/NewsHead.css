@@ -1,0 +1,39 @@
+.HeadRowPurle {
+  background-color: #270f38;
+  color: white;
+  padding: 0px;
+}
+
+.HeadRowYellow {
+  background-color: #ffcf3a;
+  padding: 0px;
+}
+
+.NewsHeadMainTitle {
+  /* border-style: solid; */
+  padding-left: 10px;
+  /* font-weight: 90; */
+}
+
+.NewsHeadImage {
+  /* border-style: solid; */
+}
+
+.NewsHeadSubTitle {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*
+Khoảng cách giữa nav bar và 
+*/
+@media (min-width: 1200px) {
+  .NewsHeadBody {
+    margin-top: 60px;
+  }
+}
+
+.NewsListBorder {
+  border-width: 0px;
+  padding: 0 0 10px 0;
+}

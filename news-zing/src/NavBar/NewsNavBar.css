@@ -1,0 +1,61 @@
+/*
+Phải đúng kích thước nó mới hiển thị lên được haha 
+*/
+.NavBarLogo {
+  background-image: url("../images/home_icon_v2.png");
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+
+.NavBarBody {
+  border-width: 0px;
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 44px;
+}
+
+li {
+  margin: 0 -10px 0 -10px; /*top right bottom left*/
+}
+
+/*table 1*/
+.tbl1 {
+  border-style: solid;
+  border-color: rgb(52, 146, 206);
+  border-width: 3px 0 0 0;
+}
+.NavBarBody .tbl1 li a {
+  color: rgb(52, 146, 206);
+}
+
+/*table 2*/
+.tbl2 {
+  border-style: solid;
+  border-color: rgb(30, 127, 2);
+  border-width: 3px 0 0 0;
+  margin-top: 0px;
+}
+.NavBarBody .tbl2 li a {
+  color: rgb(30, 127, 2);
+}
+
+/*table 3*/
+.tbl3 {
+  border-style: solid;
+  border-color: rgb(240, 83, 8);
+  border-width: 3px 0 0 0;
+}
+.NavBarBody .tbl3 li a {
+  color: rgb(240, 83, 8);
+}
+
+/*table 4*/
+.tbl4 {
+  border-style: solid;
+  border-color: rgb(239, 0, 68);
+  border-width: 3px 0 0 0;
+}
+.NavBarBody .tbl4 li a {
+  color: rgb(239, 0, 68);
+}

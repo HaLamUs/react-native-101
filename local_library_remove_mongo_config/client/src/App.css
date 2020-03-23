@@ -1,0 +1,12 @@
+.AppTitle {
+  background-color: blue;
+}
+
+.AppMenu {
+  background-color: red;
+}
+
+.AppLeft {
+  margin-left: 20px;
+  margin-top: 20px;
+}
